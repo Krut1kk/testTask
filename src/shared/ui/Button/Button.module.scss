@@ -1,0 +1,17 @@
+@import "@/app/styles/variables.scss";
+
+.Button {
+  width: 100px;
+  height: 35px;
+  background-color: $primaryColor;
+  border-radius: 80px;
+  cursor: pointer;
+  &:disabled {
+    background-color: #b4b4b4;
+    color: $mainBackground;
+    cursor: not-allowed;
+  }
+}
+.Button:hover {
+  background-color: #ffe302;
+}

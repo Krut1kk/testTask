@@ -1,0 +1,23 @@
+.UsersList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 0px;
+
+  @media (max-width: 825px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 650px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.over {
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,30 @@
+.UserCard {
+  background-color: white;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  gap: 20px;
+  border-radius: 10px;
+  overflow-x: clip;
+  @media (max-width: 1193px) {
+    width: 270px;
+  }
+}
+
+.mainInfoContainer {
+}
+
+.photo {
+  border-radius: 70px;
+}
+
+.additionalInfoContainer {
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}

@@ -1,0 +1,18 @@
+.Input {
+  color: #7e7e7e;
+  font-size: 16px;
+  padding: 14px 16px;
+  line-height: 26px;
+  width: 380px;
+  height: 54px;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+}
+
+.Input.inputError {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+}
