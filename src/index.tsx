@@ -10,9 +10,11 @@ import { StoreProvider } from "./app/providers/StoreProvider/ui/StoreProvider.ts
 import "./index.scss";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <StoreProvider>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </StoreProvider>
+  <React.StrictMode>
+    <StoreProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </StoreProvider>
+  </React.StrictMode>
 );

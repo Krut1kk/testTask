@@ -8,13 +8,10 @@ import styles from "./UserCard.module.scss";
 interface UserCardProps extends User {}
 
 export const UserCard: FC<UserCardProps> = ({
-  id,
   name,
   email,
   phone,
   position,
-  positionId,
-  registrationTimestamp,
   photo,
 }) => {
   return (

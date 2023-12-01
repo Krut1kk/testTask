@@ -6,7 +6,7 @@ interface ButtonProps {
   onClick?: () => void;
   children: ReactNode;
   disabled?: boolean;
-  type: "button" | "submit" | "reset";
+  type?: "button" | "submit" | "reset";
 }
 
 export const Button: FC<ButtonProps> = ({
